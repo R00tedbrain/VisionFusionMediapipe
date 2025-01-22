@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/permissionsFragment">
+
+    <fragment
+        android:id="@+id/permissionsFragment"
+        android:name="com.example.visionfusion.PermissionsFragment"
+        android:label="PermissionsFragment" >
+        <action
+            android:id="@+id/action_permissionsFragment_to_objectCameraFragment"
+            app:destination="@id/objectCameraFragment" />
+    </fragment>
+
+    <!-- Object Detection Camera -->
+    <fragment
+        android:id="@+id/objectCameraFragment"
+        android:name="com.example.visionfusion.objectdetection.ObjectCameraFragment"
+        android:label="ObjectCameraFragment" />
+
+    <!-- Object Detection Gallery -->
+    <fragment
+        android:id="@+id/objectGalleryFragment"
+        android:name="com.example.visionfusion.objectdetection.ObjectGalleryFragment"
+        android:label="ObjectGalleryFragment" />
+
+    <!-- Face Detection Camera -->
+    <fragment
+        android:id="@+id/faceCameraFragment"
+        android:name="com.example.visionfusion.facedetection.FaceCameraFragment"
+        android:label="FaceCameraFragment" />
+
+    <!-- Face Detection Gallery -->
+    <fragment
+        android:id="@+id/faceGalleryFragment"
+        android:name="com.example.visionfusion.facedetection.FaceGalleryFragment"
+        android:label="FaceGalleryFragment" />
+
+</navigation>

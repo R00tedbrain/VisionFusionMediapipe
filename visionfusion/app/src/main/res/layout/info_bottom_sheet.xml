@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="#AA000000"
+        android:gravity="center_vertical">
+
+        <!-- Threshold Label -->
+        <TextView
+            android:id="@+id/thresholdLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Threshold:"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/thresholdValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.5"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="16dp" />
+
+        <!-- Spinner de Delegate (CPU/GPU/NNAPI) -->
+        <Spinner
+            android:id="@+id/spinnerDelegate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/delegate_options"
+            android:layout_marginLeft="16dp"
+            android:spinnerMode="dropdown" />
+
+        <!-- Spinner de Model (efficientdet-lite0, lite2, etc.) -->
+        <Spinner
+            android:id="@+id/spinnerModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/model_options"
+            android:layout_marginLeft="16dp"
+            android:spinnerMode="dropdown" />
+
+        <Button
+            android:id="@+id/thresholdMinus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/thresholdPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textColor="@android:color/white" />
+
+        <!-- MaxResults label -->
+        <TextView
+            android:id="@+id/maxResultsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" MaxResults: "
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/maxResultsValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/maxResultsMinus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/maxResultsPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textColor="@android:color/white" />
+
+        <!-- Inference time -->
+        <TextView
+            android:id="@+id/inferenceTimeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Time: "
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/inferenceTimeVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 ms"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</layout>

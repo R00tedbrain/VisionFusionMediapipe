@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/faceCameraRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Vista de la cámara -->
+        <androidx.camera.view.PreviewView
+            android:id="@+id/viewFinderFace"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <!-- Overlay de rostros -->
+        <com.example.visionfusion.facedetection.FaceOverlayView
+            android:id="@+id/overlayFace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- Incluimos el bottom sheet con threshold, etc. -->
+        <include
+            android:id="@+id/bottomSheetLayoutFace"
+            layout="@layout/info_bottom_sheet"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!-- OPCIONAL: FAB para abrir galería, si así lo quieres -->
+        <!--
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabOpenGallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/select_file"
+            android:src="@drawable/ic_baseline_photo_library_24"
+            android:layout_margin="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+        -->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

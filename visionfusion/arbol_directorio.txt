@@ -1,0 +1,107 @@
+.
+├── app
+│   ├── build.gradle.kts
+│   ├── proguard-rules.pro
+│   └── src
+│       ├── androidTest
+│       │   └── java
+│       │       └── com
+│       │           └── example
+│       │               └── visionfusion
+│       │                   └── ExampleInstrumentedTest.kt
+│       ├── main
+│       │   ├── AndroidManifest.xml
+│       │   ├── assets
+│       │   │   ├── face_detection
+│       │   │   │   └── face_detection_short_range.tflite
+│       │   │   └── object_detection
+│       │   │       ├── efficientdet_lite0.tflite
+│       │   │       └── efficientdet_lite2.tflite
+│       │   ├── java
+│       │   │   └── com
+│       │   │       └── example
+│       │   │           └── visionfusion
+│       │   │               ├── facedetection
+│       │   │               │   ├── FaceCameraFragment.kt
+│       │   │               │   ├── FaceDetectorHelper.kt
+│       │   │               │   ├── FaceGalleryFragment.kt
+│       │   │               │   └── FaceOverlayView.kt
+│       │   │               ├── MainActivity.kt
+│       │   │               ├── MainViewModel.kt
+│       │   │               ├── objectdetection
+│       │   │               │   ├── ObjectCameraFragment.kt
+│       │   │               │   ├── ObjectDetectorHelper.kt
+│       │   │               │   ├── ObjectGalleryFragment.kt
+│       │   │               │   └── ObjectOverlayView.kt
+│       │   │               ├── PermissionsFragment.kt
+│       │   │               ├── TtsManager.kt
+│       │   │               ├── ui
+│       │   │               │   └── theme
+│       │   │               │       ├── Color.kt
+│       │   │               │       ├── Theme.kt
+│       │   │               │       └── Type.kt
+│       │   │               └── utils
+│       │   └── res
+│       │       ├── drawable
+│       │       │   ├── ic_baseline_photo_camera_24.xml
+│       │       │   ├── ic_baseline_photo_library_24.xml
+│       │       │   ├── ic_launcher_background.xml
+│       │       │   └── ic_launcher_foreground.xml
+│       │       ├── layout
+│       │       │   ├── activity_main.xml
+│       │       │   ├── fragment_camera_face.xml
+│       │       │   ├── fragment_camera_object.xml
+│       │       │   ├── fragment_gallery_object.xml
+│       │       │   ├── fragment_gallery.xml
+│       │       │   └── info_bottom_sheet.xml
+│       │       ├── menu
+│       │       │   └── menu_bottom_nav.xml
+│       │       ├── mipmap-anydpi
+│       │       │   ├── ic_launcher_round.xml
+│       │       │   └── ic_launcher.xml
+│       │       ├── mipmap-hdpi
+│       │       │   ├── ic_launcher_round.webp
+│       │       │   └── ic_launcher.webp
+│       │       ├── mipmap-mdpi
+│       │       │   ├── ic_launcher_round.webp
+│       │       │   └── ic_launcher.webp
+│       │       ├── mipmap-xhdpi
+│       │       │   ├── ic_launcher_round.webp
+│       │       │   └── ic_launcher.webp
+│       │       ├── mipmap-xxhdpi
+│       │       │   ├── ic_launcher_round.webp
+│       │       │   └── ic_launcher.webp
+│       │       ├── mipmap-xxxhdpi
+│       │       │   ├── ic_launcher_round.webp
+│       │       │   └── ic_launcher.webp
+│       │       ├── navigation
+│       │       │   └── nav_graph.xml
+│       │       ├── values
+│       │       │   ├── arrays.xml
+│       │       │   ├── colors.xml
+│       │       │   ├── strings.xml
+│       │       │   ├── styles.xml
+│       │       │   └── themes.xml
+│       │       └── xml
+│       │           ├── backup_rules.xml
+│       │           └── data_extraction_rules.xml
+│       └── test
+│           └── java
+│               └── com
+│                   └── example
+│                       └── visionfusion
+│                           └── ExampleUnitTest.kt
+├── arbol_directorio.txt
+├── build.gradle.kts
+├── gradle
+│   ├── libs.versions.toml
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── local.properties
+└── settings.gradle.kts
+
+41 directories, 64 files

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- 1) Object Camera -->
+    <item
+        android:id="@+id/objectCameraFragment"
+        android:title="Obj Cam"
+        android:icon="@drawable/ic_baseline_photo_camera_24" />
+
+    <!-- 2) Object Gallery -->
+    <item
+        android:id="@+id/objectGalleryFragment"
+        android:title="Obj Gallery"
+        android:icon="@drawable/ic_baseline_photo_library_24" />
+
+    <!-- 3) Face Camera -->
+    <item
+        android:id="@+id/faceCameraFragment"
+        android:title="Face Cam"
+        android:icon="@drawable/ic_baseline_photo_camera_24" />
+
+    <!-- 4) Face Gallery -->
+    <item
+        android:id="@+id/faceGalleryFragment"
+        android:title="Face Gallery"
+        android:icon="@drawable/ic_baseline_photo_library_24" />
+
+</menu>

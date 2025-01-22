@@ -1,0 +1,9 @@
+<resources>
+    <!-- Tema de la aplicación -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Configuraciones de tu tema, por ej. colores, etc. -->
+        <item name="android:windowEnableSplitTouch">true</item>
+        <!-- ... -->
+    </style>
+
+</resources>

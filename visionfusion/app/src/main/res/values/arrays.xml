@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="delegate_options">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+
+    <string-array name="model_options">
+        <item>EfficientDet-Lite0</item>
+        <item>EfficientDet-Lite2</item>
+        <!-- Si tienes más modelos, añádelos -->
+    </string-array>
+</resources>

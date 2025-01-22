@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Nombre de la App -->
+    <string name="app_name">VisionFusion</string>
+
+    <!-- Títulos del Bottom Navigation (menu_bottom_nav.xml) -->
+    <string name="nav_object_camera">Obj Cam</string>
+    <string name="nav_object_gallery">Obj Gallery</string>
+    <string name="nav_face_camera">Face Cam</string>
+    <string name="nav_face_gallery">Face Gallery</string>
+
+    <!-- info_bottom_sheet.xml -->
+    <string name="threshold_label">Threshold: </string>
+    <string name="max_results_label">MaxResults: </string>
+    <string name="inference_time_label">Time: </string>
+
+    <!-- fragment_gallery.xml -->
+    <!-- Texto del FAB (ContentDescription) -->
+    <string name="select_file">Seleccionar archivo</string>
+
+    <!-- Texto del placeholder mientras no se ha cargado imagen o video -->
+    <string name="placeholder_gallery">Selecciona un archivo de tu galería</string>
+
+    <!-- Si deseas poner un label en el FAB en lugar del contentDescription, puedes usarlo en su android:text o su tooltip. -->
+    <string name="fab_select_content">Galería</string>
+
+</resources>

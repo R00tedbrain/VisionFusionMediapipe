@@ -1,0 +1,6 @@
+<resources>
+    <!-- tu color principal, escoge el que quieras -->
+    <color name="purple_700">#FF3700B3</color>
+    <color name="mp_primary">#FF6200EE</color>
+
+</resources>
